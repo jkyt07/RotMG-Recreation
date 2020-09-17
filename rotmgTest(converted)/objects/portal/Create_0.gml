@@ -1,0 +1,2 @@
+portalRoom = rmOverworld
+portalName = "Overworld"

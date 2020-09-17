@@ -1,0 +1,63 @@
+event_inherited()
+
+boss = 1
+protector = 0
+hp = 4200
+def = 15
+xp = 300
+targetDistance = 128
+
+phase = 1
+centerX = x
+centerY = y
+danceTime = 30 * 4
+fireTime = 30 * 8
+
+fireBallC = 0
+fireBallCMax = 25
+shotC = 0
+shotCMax = 4
+wallDir = 4
+waveC = 0
+waveCMax = 10
+
+dropChance = 75
+drops[0, 0] = objRobeT3
+drops[0, 1] = 15
+drops[0, 2] = 1
+drops[1, 0] = objRobeT2
+drops[1, 1] = 15
+drops[1, 2] = 1
+drops[2, 0] = objLifePot
+drops[2, 1] = 5
+drops[2, 2] = 3
+drops[3, 0] = objManaPot
+drops[3, 1] = 10
+drops[3, 2] = 3
+drops[4, 0] = objAttPot
+drops[4, 1] = 20
+drops[4, 2] = 3
+drops[5, 0] = objSpdPot
+drops[5, 1] = 50
+drops[5, 2] = 3
+drops[6, 0] = objVitPot
+drops[6, 1] = 30
+drops[6, 2] = 3
+drops[7, 0] = objDefPot
+drops[7, 1] = 25
+drops[7, 2] = 3
+drops[8, 0] = objDexPot
+drops[8, 1] = 50
+drops[8, 2] = 3
+drops[9, 0] = objWisPot
+drops[9, 1] = 30
+drops[9, 2] = 3
+drops[10, 0] = objSOEP
+drops[10, 1] = 3
+drops[10, 2] = 5
+drops[11, 0] = objStaffT5
+drops[11, 1] = 30
+drops[11, 2] = 2
+drops[12, 0] = objStaffT6
+drops[12, 1] = 20
+drops[12, 2] = 2
