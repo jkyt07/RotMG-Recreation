@@ -155,13 +155,14 @@ function pcaveBoss() {
 	}
 
 
-	var bossX = irandom_range(3,21)
-	var bossY = irandom_range(3,21)
-	while(!place_meeting(startX + bossX*8, startY + bossY*8, objWood))
-	{
-		 bossX = irandom_range(3,21)
-		 bossY = irandom_range(3,21)	
-	}
+	var bossX = irandom_range(6,18)
+	var bossY = irandom_range(6,18)
+	//while(!place_meeting(startX + bossX*8, startY + bossY*8, objWood))
+	//{
+	//	 show_debug_message("Here: 4")
+	//	 bossX = irandom_range(3,21)
+	//	 bossY = irandom_range(3,21)	
+	//}
 	instance_create_layer(startX + bossX*8, startY + bossY*8, "InstancesA", objDreadstump)
 
 

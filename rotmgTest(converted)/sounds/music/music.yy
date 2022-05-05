@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 0.2,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "music",
-  "duration": 134.509491,
+  "duration": 134.504486,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -1,5 +1,10 @@
 # RotMG-Recreation
-Reacreation of the general mechanics from the game Realm of the Mad God
+Recreation of the general mechanics from the game Realm of the Mad God
+Made by Kolby Swanson @jkyt07
 
-Sprites made using textures from https://www.realmeye.com/
-Music from https://www.realmeye.com/
+All code done by me
+Sprites from https://www.realmeye.com/
+Music/sounds from https://www.realmeye.com/
+
+Unexported files from my personal project recreation of the game Realm of the Mad God.
+For exported version contact me at jkyt@outlook.com

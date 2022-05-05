@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndMagicShoot",
-  "duration": 0.083367,
+  "duration": 0.078367,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

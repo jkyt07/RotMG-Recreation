@@ -15,13 +15,16 @@ var numTries = 0
 var nextX = roomStart.x, nextY = roomStart.y
 while(curLength < dungeonLength)
 {
+	show_debug_message("Here: 1")
 	nextDir = irandom_range(0,3)
 	usableDir = 1
 	while(usableDir > 0 and numTries < 50)
 	{
+		show_debug_message("Here: 2")
 		nextDir = irandom_range(0,3)
 		while(nextDir = (curDir + 2) % 4)
 		{
+			show_debug_message("Here: 3")
 			nextDir = irandom_range(0,3)	
 		}
 		usableDir = 0
